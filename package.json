@@ -1,0 +1,19 @@
+{
+  "name": "bot-suporte-gotica-sms",
+  "version": "1.0.0",
+  "description": "Bot de Suporte Gótica SMS via Pairing Code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.5",
+    "moment-timezone": "^0.5.45",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
